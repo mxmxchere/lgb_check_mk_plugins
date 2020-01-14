@@ -36,7 +36,7 @@ apt_repository_severity = {
   '__default__'     : 1,
 }
 
-def inventory_apt(checkname, info):
+def inventory_apt(info):
     if len(info) > 0:
         return [(None, None)]
 
